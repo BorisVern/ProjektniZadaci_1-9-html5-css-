@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<!-- CSS -->
+		<link rel="stylesheet" href="style.css">
+		<!-- End CSS -->
+		<!-- meta elements -->
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="description" content="some description">
+        <meta name="author" content="Boris Župić">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+        <meta name="keywords" content="keyword 1, keyword 2, keyword 3, keyword 4, ...">
+		<title>Example page - ZARA_YACHTING</title>
+        <style>
+
+body, html {
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	font-size: 16px;
+}
+header {
+	display: block;
+	width: 100%;
+}
+.hero-image {
+	background-image: url("images/ZARA_YACHTING.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+.hero-text {
+  text-align: right;
+  position: absolute;
+  top: 13%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color:black;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
+h1,h2 {
+	margin: 0.5em;
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.5em;
+	color: #27318b;
+}
+main a {
+	color: #27318b;
+	text-decoration: none;
+}
+main a:hover {
+	color: #8b3727;
+	text-decoration: underline;
+}
+p {
+	margin: 1em;
+	line-height: 1.4em;
+	letter-spacing: 1px;
+}
+hr {
+	margin: 1em;
+	border: 1px dotted #27318b;
+	clear: both;
+}
+.news img {
+	width: 12%;
+	float: left;
+	padding: 0.5em;
+	margin: 0 1em 0.5em 0.5em;
+}
+.news h2 {
+	margin: 0.5em 0.7em;
+	font-size: 1.5em;
+	color: #27318b;
+}
+.news hr {
+	margin: 1em;
+	border: 1px dotted #27318b;
+	clear: both;
+}
+.news time {
+	font-size: 90%;
+	font-style: italic;
+}
+.description {
+	font-weight: bold;
+	margin: 0.8em 1em 1.5em 1em;
+}
+#news_gallery figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 10%;
+	border: 1px solid black;
+}
+#news_gallery figcaption {
+	font-size: 90%;
+	text-align: center;
+}
+
+figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 35%;
+	border: 1px solid black;
+}
+figcaption {
+	font-size: 90%;
+}
+img {
+	width: 100%;
+}
+#contact {
+	margin: 1em
+}
+label {
+	display: block;
+}
+input[type=text], input[type=email], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 95%;
+}
+
+input[type=submit] {
+    display: block;
+	background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 25%;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+footer {
+	background-color: #333;
+	padding: 0.1em;
+	clear: both;
+}
+footer p {
+	color: white;
+	text-align: center;
+	margin: 0.5em;
+}
+footer img {
+	width: 20px;
+}
+
+@media screen and (max-width: 900px) {
+	figure {
+		width: 90%;
+		margin: 1em;
+	}
+	.news img {
+		width: 95%;
+		padding: 0.5em;
+		margin: 0 1em 0.5em 0.5em;
+	}
+	.news time {
+		margin: 0 0 0 1em;
+	}
+	#news_gallery figure {
+		padding: 0.5em;
+		margin: 0 1em 0.5em 1em;
+		float: left;
+		width: 90%;
+		border: 1px solid black;
+	}
+	#news_gallery figcaption {
+		font-size: 90%;
+		text-align: center;
+	}
+}
+
+        </style>
+	</head>
+<body>
+	<header>
+		<div class="hero-image"></div>
+        <div class="hero-text">
+            <h1 style="font-size:60px">ZARA YACHTING</h1></div>
+		<nav>
+			<ul>
+			  <li><a href="index.html">Početna</a></li>
+			  <li><a href="news.html">Novosti</a></li>
+			  <li><a href="contact.html">Kontakt</a></li>
+			  <li><a href="#">O nama</a></li>
+			  <li><a href="#">Galerija</a></li>
+			</ul>
+		</nav>
+	</header>
+    <main>
+		<h1>Novosti</h1>
+		<div id="news_gallery">
+			<figure id="1">
+				<img src="images/brodskimotori.jpeg" alt="brodskimotori" title="brodskimotori">
+				<figcaption>Brodski motori na metanol<figcaption>
+			</figure>
+        </div>
+		<hr>
+		<div class="news">
+			<h2>Snažni brodski motori na metanol</h2>
+            <p class="description">Rolls-Royce Power Solution na bazi njihova MTU brodskog motora razvija tehnologiju za korištenje metanola kao alternativnog goriva.</p>
+            <p>EU želi biti CO2 neutralna, a tvrtke koje žele opstati na tom tržištu trude se svim silama ponuditi rješenje. Uz različite verzije litijskih baterija i elektropogon, još uvijek nemamo rješenje koje bi moglo zamijeniti kapacitete energije koje pružaju fosilna goriva.   </p>
+			<p>Stoga se sve više spominje vodik (dobiven iz obnovljivih izvora energije) kao izvor energije za napajanje gorivih ćelija, koje uz elektro pogon čine dobru kombinaciju, no proces punjenja ostaje upitan. Tvrtka Rolls Royce Power Systems razvija snažne motore i visokim brojem okretaja, pogonjene metanolom na bazi tehnologije unutarnjeg sagorijevanja. Rolls Royce i njihova tvrtka MTU za brodske pogone predviđaju da bi se ovom tehnologijom moglo iskoristiti dobar dio već postojeće infrastrukture.</p>
+			<p>Kao ključne aspekte izdvajaju visok standard razvoja motora na metanol, novi motori napravljeni na dokazanoj MTU-ovoj tehnologiji, metanol i sintetički dizel kao ključna goriva budućnosti za klimatski prihvatljiv rad motora, a tu navode i gorive ćelije koje također smatraju dijelom klimatski-neutralne plovidbe. </p>
+			<p>Rolls-Royce je fokusiran na metanol kao gorivo budućnosti za pogon rekreativnih i komercijalnih plovila. Njihov ogranak Power Systems trenutno radi na MTU-ovim motorima s metalom kao gorivom. </p>
+			<p>Novi četverotaktni motori koji koriste već postojeću MTU tehnologiju uskoro bi trebali postati dostupni na tržištu.</p>
+			<p>Potpredsjednica Global Marine divizije u Rolls-Royce Power Systems, Denise Kurtulus rekla je „S novim razvojem MTU motora na metanol, želimo biti vodeći pioniri te tehnologije u nautičkoj industriji. Odlučno smo posvećeni metanolu kao izvoru energije za „zelenu“ brodarsku budućnost, te želimo postaviti standarde za stvaranje planske sigurnosti za naše klijente. Pothitno moramo pronaći konkretna rješenja za postizanje klimatskih ciljeva.</p>
+            <p>Izvor: <a href="http://www.more.hr/blog/snazni-brodski-motori-na-metanol/" target="_blank">More.hr</a></p>
+			<p><a href="news.html">Prethodna stranica</a></p>
+		</div>
+	</main>
+	<footer>
+		<p>Copyright &copy; 2021 Boris Župić</p>
+	</footer>
+</body>
+</html>

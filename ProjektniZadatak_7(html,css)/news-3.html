@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<!-- CSS -->
+		<link rel="stylesheet" href="style.css">
+		<!-- End CSS -->
+		<!-- meta elements -->
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="description" content="some description">
+        <meta name="author" content="Boris Župić">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+        <meta name="keywords" content="keyword 1, keyword 2, keyword 3, keyword 4, ...">
+		<title>Example page - ZARA_YACHTING</title>
+        <style>
+
+body, html {
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	font-size: 16px;
+}
+header {
+	display: block;
+	width: 100%;
+}
+.hero-image {
+	background-image: url("images/ZARA_YACHTING.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+.hero-text {
+  text-align: right;
+  position: absolute;
+  top: 13%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color:black;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
+h1,h2 {
+	margin: 0.5em;
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.5em;
+	color: #27318b;
+}
+main a {
+	color: #27318b;
+	text-decoration: none;
+}
+main a:hover {
+	color: #8b3727;
+	text-decoration: underline;
+}
+p {
+	margin: 1em;
+	line-height: 1.4em;
+	letter-spacing: 1px;
+}
+hr {
+	margin: 1em;
+	border: 1px dotted #27318b;
+	clear: both;
+}
+.news img {
+	width: 12%;
+	float: left;
+	padding: 0.5em;
+	margin: 0 1em 0.5em 0.5em;
+}
+.news h2 {
+	margin: 0.5em 0.7em;
+	font-size: 1.5em;
+	color: #27318b;
+}
+.news hr {
+	margin: 1em;
+	border: 1px dotted #27318b;
+	clear: both;
+}
+.news time {
+	font-size: 90%;
+	font-style: italic;
+}
+.description {
+	font-weight: bold;
+	margin: 0.8em 1em 1.5em 1em;
+}
+#news_gallery figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 10%;
+	border: 1px solid black;
+}
+#news_gallery figcaption {
+	font-size: 90%;
+	text-align: center;
+}
+
+figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 35%;
+	border: 1px solid black;
+}
+figcaption {
+	font-size: 90%;
+}
+img {
+	width: 100%;
+}
+#contact {
+	margin: 1em
+}
+label {
+	display: block;
+}
+input[type=text], input[type=email], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 95%;
+}
+
+input[type=submit] {
+    display: block;
+	background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 25%;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+footer {
+	background-color: #333;
+	padding: 0.1em;
+	clear: both;
+}
+footer p {
+	color: white;
+	text-align: center;
+	margin: 0.5em;
+}
+footer img {
+	width: 20px;
+}
+
+@media screen and (max-width: 900px) {
+	figure {
+		width: 90%;
+		margin: 1em;
+	}
+	.news img {
+		width: 95%;
+		padding: 0.5em;
+		margin: 0 1em 0.5em 0.5em;
+	}
+	.news time {
+		margin: 0 0 0 1em;
+	}
+	#news_gallery figure {
+		padding: 0.5em;
+		margin: 0 1em 0.5em 1em;
+		float: left;
+		width: 90%;
+		border: 1px solid black;
+	}
+	#news_gallery figcaption {
+		font-size: 90%;
+		text-align: center;
+	}
+}
+
+        </style>
+	</head>
+<body>
+	<header>
+		<div class="hero-image"></div>
+        <div class="hero-text">
+            <h1 style="font-size:60px">ZARA YACHTING</h1></div>
+		<nav>
+			<ul>
+			  <li><a href="index.html">Početna</a></li>
+			  <li><a href="news.html">Novosti</a></li>
+			  <li><a href="contact.html">Kontakt</a></li>
+			  <li><a href="#">O nama</a></li>
+			  <li><a href="#">Galerija</a></li>
+			</ul>
+		</nav>
+	</header>
+    <main>
+		<h1>Novosti</h1>
+		<div id="news_gallery">
+			<figure id="1">
+				<img src="images/visionmarine.png" alt="visionmarine" title="visionmarine">
+				<figcaption>Vision Marine baterije za brodice<figcaption>
+			</figure>
+        </div>
+		<hr>
+		<div class="news">
+			<h2>Vision Marine baterije za brodice</h2>
+            <p class="description">Kanadski proizvođač brodskih elektromotora najavio proizvodnju specijaliziranih kompaktnih baterija.</p>
+            <p>Kanadska tvrtka Vision Marine Technologies nedavno je potpisala partnerstvo s tvrtkom McLaren Engineering, ogrankom Linamar Corporation, a zajednički im je cilj unaprjeđenje proizvoda i automatizacija proizvodnje njihova Vision Marine E-Motion električnog motora.</p>
+			<p>Sada je objavljeno kako je Vision Marine Technologies potpisao još jedan ugovor o partnerstvu s tvrtkom Octillion Powersystems za razvoj i proizvodnju baterija namijenjenih za Vision Marine E-Motion motora. Iako se hvale kako će ove baterije zauzimati volumen prosječnog dizelskog tanka, nisu poznati detalji niti o kojoj je tehnologiji riječ. </p>
+			<p>Cilj im je razviti specijalnu bateriju visoke voltaže i energetske gustoće, ekskluzivno za tržište rekreativne plovidbe.</p>
+			<p>Pritom ne navode specifičnosti, niti vrijednosti baterije. Octillion će te baterije proizvoditi ekskluzivno za Vision Marine E-Motion izvanbrodske pogone. Iako za sad ne znamo precizne dimenzije, u priopćenju za javnost navode da će takva baterija imati volumen prosječnog tanka goriva, što bi u konačnici značilo jednostavniju ugradnju u brodice.</p>
+			<p>Tvrtka Octillion proizvodi sisteme za projekte zelene energije od 2009. godine, s fokusom na litij-ionske baterijske sklopove za električne automobile, kamione i autobuse. Do sad su isporučili oko 400 tisuća baterijskih sklopova za vozila diljem svijeta, s više od 4,5 milijardi prijeđenih kilometara s Octillionovim baterijskim sklopovima.  </p>
+			<p>Ipak, kalifornijskoj tvrtki je ovo prvi posao u nautičkoj industriji.</p>
+			<p>Ovakve baterije lakše će se moći ugrađivati u brze brodice između 18 i 30 stopa čiji su trupovi uski i imaju vrlo ograničen prostor. Vision Marine navodi posebno velik interes za ovakvim tipom pogona kod pontonskih plovila, a prema njihovoj procijeni ove godine će se u SAD-u prodati oko 70 tisuća pontonskih plovila, te oko 380 tisuća izvanbrodskih motora, pa tu vide svoju priliku na tržištu.</p>
+            <p>Izvor: <a href="http://www.more.hr/blog/vision-marine-baterije-za-brodice/" target="_blank">More.hr</a></p>
+			<p><a href="news.html">Prethodna stranica</a></p>
+		</div>
+	</main>
+	<footer>
+		<p>Copyright &copy; 2021 Boris Župić</p>
+	</footer>
+</body>
+</html>
