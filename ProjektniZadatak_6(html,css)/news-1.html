@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<!-- CSS -->
+		<link rel="stylesheet" href="style.css">
+		<!-- End CSS -->
+		<!-- meta elements -->
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="description" content="some description">
+        <meta name="author" content="Boris Župić">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+        <meta name="keywords" content="keyword 1, keyword 2, keyword 3, keyword 4, ...">
+		<title>Example page - ZARA_YACHTING</title>
+        <style>
+
+body, html {
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	font-size: 16px;
+}
+header {
+	display: block;
+	width: 100%;
+}
+.hero-image {
+	background-image: url("images/ZARA_YACHTING.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+.hero-text {
+  text-align: right;
+  position: absolute;
+  top: 13%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color:black;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
+h1,h2 {
+	margin: 0.5em;
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.5em;
+	color: #27318b;
+}
+main a {
+	color: #27318b;
+	text-decoration: none;
+}
+main a:hover {
+	color: #8b3727;
+	text-decoration: underline;
+}
+p {
+	margin: 1em;
+	line-height: 1.4em;
+	letter-spacing: 1px;
+}
+hr {
+	margin: 1em;
+	border: 1px dotted #27318b;
+	clear: both;
+}
+.news img {
+	width: 12%;
+	float: left;
+	padding: 0.5em;
+	margin: 0 1em 0.5em 0.5em;
+}
+.news h2 {
+	margin: 0.5em 0.7em;
+	font-size: 1.5em;
+	color: #27318b;
+}
+.news hr {
+	margin: 1em;
+	border: 1px dotted #27318b;
+	clear: both;
+}
+.news time {
+	font-size: 90%;
+	font-style: italic;
+}
+.description {
+	font-weight: bold;
+	margin: 0.8em 1em 1.5em 1em;
+}
+#news_gallery figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 10%;
+	border: 1px solid black;
+}
+#news_gallery figcaption {
+	font-size: 90%;
+	text-align: center;
+}
+
+figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 35%;
+	border: 1px solid black;
+}
+figcaption {
+	font-size: 90%;
+}
+img {
+	width: 100%;
+}
+footer {
+	background-color: #333;
+	padding: 0.1em;
+	clear: both;
+}
+footer p {
+	color: white;
+	text-align: center;
+	margin: 0.5em;
+}
+footer img {
+	width: 20px;
+}
+
+@media screen and (max-width: 900px) {
+	figure {
+		width: 90%;
+		margin: 1em;
+	}
+	.news img {
+		width: 95%;
+		padding: 0.5em;
+		margin: 0 1em 0.5em 0.5em;
+	}
+	.news time {
+		margin: 0 0 0 1em;
+	}
+	#news_gallery figure {
+		padding: 0.5em;
+		margin: 0 1em 0.5em 1em;
+		float: left;
+		width: 90%;
+		border: 1px solid black;
+	}
+	#news_gallery figcaption {
+		font-size: 90%;
+		text-align: center;
+	}
+}
+
+        </style>
+	</head>
+<body>
+	<header>
+		<div class="hero-image"></div>
+        <div class="hero-text">
+            <h1 style="font-size:60px">ZARA YACHTING</h1></div>
+		<nav>
+			<ul>
+			  <li><a href="index.html">Početna</a></li>
+			  <li><a href="news.html">Novosti</a></li>
+			  <li><a href="#">Kontakt</a></li>
+			  <li><a href="#">O nama</a></li>
+			  <li><a href="#">Galerija</a></li>
+			</ul>
+		</nav>
+	</header>
+    <main>
+		<h1>Novosti</h1>
+		<div id="news_gallery">
+			<figure id="1">
+				<img src="images/f175.jpg" alt="F175" title="F175">
+				<figcaption>Yamaha F175A <figcaption>
+			</figure>
+        </div>
+		<hr>
+		<div class="news">
+			<h2>Vanbrodski motor Yamaha F175A</h2>
+            <p class="description">Yamaha F175A bit će izložena na Southampton Boat Showu na Yamahinom štandu: E072, te u marini na Jeanneau power štandu: M439.</p>
+            <p>Kada je riječ o motornim obiteljskim dnevnim brodovima, RIB-ovima i još većim središnjim konzolama, jaz između 150 KS i 200 KS je jako širok, tako da je ovaj potpuno novi F175A iz Yamahe važno popunjavanje praznina za njih i pomaže u stvaranju logične i inkrementalne snage linija od 2,5 KS pa sve do 350 KS.</p>
+			<p>Kako bi se uredno smjestio u Yamahinu obitelj izvanbrodskih motora u ovom većem sektoru, isti 2,8-litreni blok iz F200 korišten je kao baza, ali ovo nije samo de-ugođeni motor od 200 KS.</p>
+			<p>To je zapravo novi motor koji koristi novu glavu, novi zupčanik ventila, novi alternator i novi sustav za dovod zraka.</p>
+			<p>Čak je i poklopac redizajniran s novim oblikom i koristi drugačiju matricu smole koja značajno smanjuje težinu poklopca.</p>
+			<p>Uspoređujući novi poklopac sa starim nevjerojatno je kolika je mrtva težina u starom poklopcu. Zahvaljujući programu mršavljenja koji je Yamaha postavila na svoje motore, novi motor je gipkih 225 kg. Ovaj elegantan, lagan i kompaktan motor prepun je novih tehnologija.</p>
+			<p>F175A koristi moderni koncept pomaknute radilice kako bi se smanjili gubici zbog trenja unutar motora i kako bi se cijeli motor učinio kompaktnijim.</p>
+			<p>Pomicanjem radilice za 10 mm od središnje crte provrta, manji je bočni pritisak na stijenku cilindra tijekom radnog hoda što oslobađa više snage za pogon.</p>
+            <p>Izvor: <a href="https://uk.boats.com/reviews/yamaha-f175a-outboard-engine-review/" target="_blank">boats.com</a></p>
+			<p><a href="news.html">Prethodna stranica</a></p>
+		</div>
+	</main>
+	<footer>
+		<p>Copyright &copy; 2021 Boris Župić</p>
+	</footer>
+</body>
+</html>
